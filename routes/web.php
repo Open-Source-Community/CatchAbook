@@ -25,7 +25,9 @@ Route::get('/borrow', 'HomeController@borrow');
 Route::get('/add', 'HomeController@add');
 
 // to search for a book 
-Route::get('/search', 'HomeController@search');
+//Route::get('/search', 'HomeController@search');
+Route::get('/search','LiveSearch@index');
+Route::post('/search/action','LiveSearch@action')->name('live_search.action');
 
 Route::delete('/delete/{id}', 'HomeController@delete');
 Route::get('/edit/{id}', 'HomeController@edit');

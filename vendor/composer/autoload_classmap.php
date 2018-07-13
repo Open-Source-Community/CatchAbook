@@ -18,7 +18,6 @@ return array(
     'CatchAbook\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'CatchAbook\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'CatchAbook\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
-    'CatchAbook\\Http\\Controllers\\Profile' => $baseDir . '/app/Http/Controllers/Profile.php',
     'CatchAbook\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'CatchAbook\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'CatchAbook\\Http\\Middleware\\RedirectIfAuthenticated' => $baseDir . '/app/Http/Middleware/RedirectIfAuthenticated.php',
